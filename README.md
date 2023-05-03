@@ -75,4 +75,4 @@ Use the app to add, edit, and delete tasks as needed. All changes will be saved 
 
 . This project is open for contributions. Feel free to submit issues, pull requests, or suggestions.
 
-![alt text](./src/todo.png)
+<img src='https://www.linkpicture.com/q/todo_3.png'>
