@@ -10,7 +10,7 @@ function List({
   clearTodo,
 }) {
   const [completedTask, setCompletedTask] = useState([]);
-
+// function for count completed task
   useEffect(() => {
     const count = () => {
       if (data.length > 0) {
@@ -20,7 +20,7 @@ function List({
     };
     count();
   }, [data]);
-
+// if length of todo is zero then show assign todo
   if (data.length === 0) {
     return (
       <>
@@ -28,7 +28,7 @@ function List({
       </>
     );
   }
-
+// jsx of list
   return (
     <div className="addData">
       <div className="scrollPlace">
@@ -55,6 +55,7 @@ function List({
           );
         })}
       </div>
+      {/* show total task , total completed task and clear all task button */}
       <div className="count">
         <span>Completed Todo:{completedTask} </span>
         <button onClick={clearTodo}>CLEAR</button>
