@@ -1,0 +1,39 @@
+.heading {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.addData {
+
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.addData input {
+    width: 80% !important;
+    height: 40px;
+    border: 0;
+    color: black !important;
+    font-weight: 700;
+    outline: none;
+
+}
+
+.addData input::placeholder {
+    color: black !important;
+    font-weight: 700;
+}
+
+.addData button {
+    /* padding: 0 30px; */
+    width: 20%;
+    height: 40px;
+    border: 0;
+    outline: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    background-image: linear-gradient(blue, yellowgreen);
+}
