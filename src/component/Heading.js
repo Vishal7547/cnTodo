@@ -1,5 +1,3 @@
-import React from "react";
-
 import "../style/heading.css";
 function Heading({
   updateData,
@@ -9,6 +7,7 @@ function Heading({
   update,
   updateTitle,
 }) {
+  console.log("updateTitle", updateTitle);
   return (
     <>
       <h1 className="heading">TODO LISTS</h1>
@@ -28,6 +27,7 @@ function Heading({
             <input
               type="text"
               defaultValue={updateTitle}
+              key={updateTitle}
               onChange={(e) => onChangeHandler(e)}
             />
             <button onClick={() => updateData(item)}>UPDATE</button>
