@@ -1,73 +1,78 @@
-# Getting Started with Create React App
+# React Todo List App
 
-This project was bootstrappe with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Todo List app built with React that uses an API to store and retrieve tasks. Users can add, edit, and delete tasks on the app.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
+
+## Features
+
+# Add task
+
+Users can add a new task to the list by clicking on the "Add Task" button and typing in the task name.
+
+# Edit task
+
+Users can edit a task by clicking on the task name and typing in the new name.
+
+# Delete task
+
+Users can delete a task by clicking on the "Delete" button next to the task.
+
+# Count
+
+user can check total task and completed task
+
+# Clear completed tasks
+
+Users can clear all completed tasks by clicking on the "Clear Completed" button.
+
+### Technologies
+
+# React
+
+React is a popular JavaScript library used for building user interfaces. It allows for the creation of reusable UI components and provides a declarative way to build complex UIs.
+
+# API
+
+An API (Application Programming Interface) is a way for different software applications to communicate with each other. In this case, the React Todo List app is using an API to store and retrieve tasks (Its a Fake apI).
+
+# Bootstrap Icon
+
+bootstrap is a css framework that provides a set of icons that can be used in a React app. It is used in the React Todo List app to add,delete,update icons to the UI components.
+
+## Installing
+
+Clone this repository to your local machine.
+
+### `git clone https://github.com/Vishal7547/cnTodo.git`
+
+# Navigate to the project directory.
+
+cd cnTodo
+
+# Install the required packages.
+
+### `npm install`
+
+# uses
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open the app in your web browser at http://localhost:3000.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You should see the Todo List app with some default tasks.
 
-### `npm test`
+Use the app to add, edit, and delete tasks as needed. All changes will be saved to the API.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Built With
 
-### `npm run build`
+. React - The JavaScript library used to build the app.
+. API - The external data source used to store and retrieve tasks.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+. This project is open for contributions. Feel free to submit issues, pull requests, or suggestions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-<!-- git remote add origin https://github.com/Vishal7547/todoReactCn.git
-git push -u origin main -->
+![alt text](todo.png)
