@@ -174,9 +174,15 @@ function App() {
         });
         setTodo([...storeUpdate]);
 
-        addToast("Todo is completed successfully", {
-          appearance: "success",
-        });
+        if (!y.completed) {
+          addToast("Todo is completed successfully", {
+            appearance: "success",
+          });
+        } else {
+          addToast("remove from completed", {
+            appearance: "error",
+          });
+        }
       } else {
         const data = await response.json();
         const storeUpdate = todo.map((x) => {
@@ -186,9 +192,15 @@ function App() {
           return x;
         });
         setTodo([...storeUpdate]);
-        addToast("Todo is completed successfully", {
-          appearance: "success",
-        });
+        if (!y.completed) {
+          addToast("Todo is completed successfully", {
+            appearance: "success",
+          });
+        } else {
+          addToast("remove from completed", {
+            appearance: "error",
+          });
+        }
       }
     } catch (e) {
       addToast(e, {
